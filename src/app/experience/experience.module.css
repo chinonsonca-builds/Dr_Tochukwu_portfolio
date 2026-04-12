@@ -1,0 +1,174 @@
+.expContainer {
+  padding: 120px 20px 80px;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.title {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 60px;
+}
+
+.timeline {
+  position: relative;
+  border-left: 2px solid var(--border-color);
+  padding-left: 40px;
+  margin-left: 20px;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 50px;
+  background: var(--bg-secondary);
+  padding: 25px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s;
+}
+
+.timelineItem:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+}
+
+.timelineDot {
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  border: 4px solid var(--bg-primary);
+}
+
+.company {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.roleDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.role {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.date {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+  .timelineDot {
+    left: -30px;
+    width: 14px;
+    height: 14px;
+  }
+  .roleDate {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* CV Request Form Styles */
+.cvSection {
+  margin-top: 80px;
+  padding: 40px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.cvTitle {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.cvSubtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 30px;
+}
+
+.cvForm {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.inputField, .textareaField {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 1rem;
+}
+
+.inputField:focus, .textareaField:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.textareaField {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitBtn:hover {
+  background-color: #a3823c;
+}

@@ -1,0 +1,74 @@
+.contactContainer {
+  padding: 120px 20px 80px;
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 40px;
+}
+
+.formGroup {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.inputField, .selectField, .textareaField {
+  padding: 12px 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.inputField:focus, .selectField:focus, .textareaField:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.textareaField {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.submitBtn {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 10px;
+}
+
+.submitBtn:hover {
+  background-color: #a3823c;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
