@@ -49,6 +49,11 @@ export default function About() {
           <h3 className={styles.itemTitle}>M.Sc, Economics</h3>
           <p>University of Ibadan, Nigeria</p>
         </div>
+        <div className={styles.listItem}>
+          <div className={styles.itemYear}>1995 - 2000</div>
+          <h3 className={styles.itemTitle}>B.Sc, Economics</h3>
+          <p>University of Ibadan, Nigeria</p>
+        </div>
       </div>
 
       <h2 className={styles.sectionTitle}>Professional Memberships</h2>

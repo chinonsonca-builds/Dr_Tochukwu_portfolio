@@ -17,6 +17,7 @@ export default function Navbar() {
           <Link href="/about">About</Link>
           <Link href="/experience">Experience</Link>
           <Link href="/publications">Publications</Link>
+          <Link href="/media">Media & Presentations</Link>
           <Link href="/contact">Consultation</Link>
           <ThemeToggle />
         </div>
