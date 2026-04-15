@@ -1,5 +1,0 @@
-name = "dr-tochukwu-portfolio"
-compatibility_date = "2024-09-23"
-
-# Static export: Next.js outputs to 'out/' with output: 'export'
-pages_build_output_dir = "out"
