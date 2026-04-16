@@ -6,12 +6,12 @@ export const metadata = {
 
 export default function Publications() {
   const technicalReports = [
-    { title: "Project Implementation Completion and Impact Evaluation Report for the FGIP", publisher: "Ministry of Finance / World Bank", year: "2024-2025", category: "Technical Report", link: "https://prestonconsultsltd.com/publications/" },
-    { title: "2024 Subnational Ease of Doing Business (EoDB) Survey", publisher: "PEBEC / World Bank", year: "2024", category: "Technical Report", link: "https://prestonconsultsltd.com/2024-subnational-ease-of-doing-business-survey/" },
-    { title: "2022 Subnational Ease of Doing Business (EoDB) Survey", publisher: "PEBEC", year: "2022", category: "Technical Report", link: "https://prestonconsultsltd.com/2022-subnational-ease-of-doing-business-survey/" },
-    { title: "Demand Assessment for the Sustainable Procurement, Environment and Social Standards Project", publisher: "World Bank / Nigerian Universities", year: "2019", category: "Technical Report", link: "https://prestonconsultsltd.com/demand-assessment-for-the-sustainable-procurement-environment-and-social-standards-project/" },
-    { title: "Monitoring and Evaluation Survey of PTAD’s 2015 Pensioner’s Verification", publisher: "PTAD", year: "2015-2016", category: "Technical Report", link: "https://prestonconsultsltd.com/monitoring-and-evaluation-survey-of-ptads-2015-pensioners/" },
-    { title: "Diagnostic Study of the Nigerian Health Sector", publisher: "Mastercard Foundation", year: "2021", category: "Technical Report", link: "https://prestonconsultsltd.com/elementor-trackrecordhealth/" }
+    { title: "Project Implementation Completion and Impact Evaluation Report for the FGIP", publisher: "Federal Ministry of Finance / World Bank", year: "2024–2025", category: "Technical Report", link: "https://prestonconsultsltd.com/fgip-2025/" },
+    { title: "Stakeholder Management for the National Assembly Library Trust Funds (NALTF)", publisher: "National Assembly", year: "2024", category: "Technical Report", link: "https://prestonconsultsltd.com/track-record/" },
+    { title: "Data Collection for the 2024 Subnational Ease of Doing Business (EoDB) Survey", publisher: "PEBEC / World Bank", year: "2024", category: "Technical Report", link: "https://prestonconsultsltd.com/eodb-2024/" },
+    { title: "Data Collection for the 2022 Subnational Ease of Doing Business (EoDB) Survey", publisher: "PEBEC", year: "2021–2022", category: "Technical Report", link: "https://prestonconsultsltd.com/track-record/" },
+    { title: "Development of Training Needs Assessment (TNA) Tools", publisher: "Yobe State Government", year: "Jan–Mar 2021", category: "Technical Report", link: "https://prestonconsultsltd.com/trainingtools/" },
+    { title: "Diagnostic Study of the Nigerian Health Sector", publisher: "Mastercard Foundation", year: "2021", category: "Technical Report", link: "https://prestonconsultsltd.com/track-record/" }
   ];
 
   const policyBriefs = [
