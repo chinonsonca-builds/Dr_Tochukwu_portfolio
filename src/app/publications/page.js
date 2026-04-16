@@ -9,9 +9,9 @@ export default function Publications() {
     { title: "Project Implementation Completion and Impact Evaluation Report for the FGIP", publisher: "Federal Ministry of Finance / World Bank", year: "2024–2025", category: "Technical Report", link: "https://prestonconsultsltd.com/fgip-2025/" },
     { title: "Stakeholder Management for the National Assembly Library Trust Funds (NALTF)", publisher: "National Assembly", year: "2024", category: "Technical Report", link: "https://prestonconsultsltd.com/stakeholder-management/" },
     { title: "Data Collection for the 2024 Subnational Ease of Doing Business (EoDB) Survey", publisher: "PEBEC / World Bank", year: "2024", category: "Technical Report", link: "https://prestonconsultsltd.com/eodb-2024/" },
-    { title: "Data Collection for the 2022 Subnational Ease of Doing Business (EoDB) Survey", publisher: "PEBEC", year: "2021–2022", category: "Technical Report", link: "https://prestonconsultsltd.com/track-record/" },
+    { title: "Data Collection for the 2022 Subnational Ease of Doing Business (EoDB) Survey", publisher: "PEBEC", year: "2021–2022", category: "Technical Report", link: "https://prestonconsultsltd.com/eodb/" },
     { title: "Development of Training Needs Assessment (TNA) Tools", publisher: "Yobe State Government", year: "Jan–Mar 2021", category: "Technical Report", link: "https://prestonconsultsltd.com/trainingtools/" },
-    { title: "Diagnostic Study of the Nigerian Health Sector", publisher: "Mastercard Foundation", year: "2021", category: "Technical Report", link: "https://prestonconsultsltd.com/track-record/" }
+    { title: "Diagnostic Study of the Nigerian Health Sector", publisher: "Mastercard Foundation", year: "2021", category: "Technical Report", link: "https://prestonconsultsltd.com/elementor-trackrecordhealth/" }
   ];
 
   const policyBriefs = [
