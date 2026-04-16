@@ -1,5 +1,0 @@
-name = "dr-tochukwu-portfolio"
-compatibility_date = "2024-09-23"
-
-# Cloudflare Pages: static export from 'out/' folder
-pages_build_output_dir = "out"
